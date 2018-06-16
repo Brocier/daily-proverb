@@ -1,4 +1,4 @@
-{The proverbs of Solomon son of David, king of Israel:
+The proverbs of Solomon son of David, king of Israel:
 
 for gaining wisdom and instruction;
     for understanding words of insight;
@@ -73,4 +73,4 @@ they will eat the fruit of their ways
 For the waywardness of the simple will kill them,
     and the complacency of fools will destroy them;
 but whoever listens to me will live in safety
-    and be at ease, without fear of harm.”}
+    and be at ease, without fear of harm.”
