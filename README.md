@@ -12,4 +12,4 @@ A simple project to show the chapter of Proverbs corresponding to the day of the
 - jQuery<img src="https://uploads.toptal.io/blog/category/logo/40/jquery.png" height="16">
 - [Trello](https://trello.com/b/cXNQW3Xa)
 - [Figma](https://www.figma.com/file/e2J8TgDHHUSscVRhIKLwXBx5/Proverbs-Project)
-- [Bitballoon](google.com)
+- [Github Pages](https://brocier.github.io/daily-proverb/)
