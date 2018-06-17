@@ -54,7 +54,7 @@ $(() => {
   }
 
   today = `${month} ${dd}, ${yyyy}`
-  console.log(today)
+  console.log((`${yyyy}-${mm}-${dd} International Date Format`))
 
   switch (new Date().getDay()) {
     case 0:
