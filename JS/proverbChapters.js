@@ -1,5 +1,4 @@
 $(() => {
-  console.log(`proverbs loaded`)
   const today = new Date()
   const dayOfMonth = today.getDate()
   switch (today.getDate()) {
@@ -105,8 +104,10 @@ $(() => {
 <br/>    Listen, my son! Listen, son of my womb!<br/>        Listen, my son, the answer to my prayers!<br/>    Do not spend your strength on women,<br/>        your vigor on those who ruin kings.<br/>    <br/>    It is not for kings, Lemuel—<br/>        it is not for kings to drink wine,<br/>        not for rulers to crave beer,<br/>    lest they drink and forget what has been decreed,<br/>        and deprive all the oppressed of their rights.<br/>    Let beer be for those who are perishing,<br/>        wine for those who are in anguish!<br/>    Let them drink and forget their poverty<br/>        and remember their misery no more.<br/>    <br/>    Speak up for those who cannot speak for themselves,<br/>        for the rights of all who are destitute.<br/>    Speak up and judge fairly;<br/>        defend the rights of the poor and needy.<br/>    <br/>    A wife of noble character who can find?<br/>        She is worth far more than rubies.<br/>    Her husband has full confidence in her<br/>        and lacks nothing of value.<br/>    She brings him good, not harm,<br/>        all the days of her life.<br/>    She selects wool and flax<br/>        and works with eager hands.<br/>    She is like the merchant ships,<br/>        bringing her food from afar.<br/>    She gets up while it is still night;<br/>        she provides food for her family<br/>        and portions for her female servants.<br/>    She considers a field and buys it;<br/>        out of her earnings she plants a vineyard.<br/>    She sets about her work vigorously;<br/>        her arms are strong for her tasks.<br/>    She sees that her trading is profitable,<br/>        and her lamp does not go out at night.<br/>    In her hand she holds the distaff<br/>        and grasps the spindle with her fingers.<br/>    She opens her arms to the poor<br/>        and extends her hands to the needy.<br/>    When it snows, she has no fear for her household;<br/>        for all of them are clothed in scarlet.<br/>    She makes coverings for her bed;<br/>        she is clothed in fine linen and purple.<br/>    Her husband is respected at the city gate,<br/>        where he takes his seat among the elders of the land.<br/>    She makes linen garments and sells them,<br/>        and supplies the merchants with sashes.<br/>    She is clothed with strength and dignity;<br/>        she can laugh at the days to come.<br/>    She speaks with wisdom,<br/>        and faithful instruction is on her tongue.<br/>    She watches over the affairs of her household<br/>        and does not eat the bread of idleness.<br/>    Her children arise and call her blessed;<br/>        her husband also, and he praises her:<br/>    “Many women do noble things,<br/>        but you surpass them all.”<br/>    Charm is deceptive, and beauty is fleeting;<br/>        but a woman who fears the Lord is to be praised.<br/>    Honor her for all that her hands have done,<br/>        and let her works bring her praise at the city gate.`
       break;
     default:
-      proverb = "Proverb of the day not found";
+      proverb = `Proverb of the day not found. Are you sure you're within the standard 31 calendar days?`;
   }
+
   $(".titleOfChapterOfProverbs").append(`Proverbs ${dayOfMonth}`)
   $(".textOfChapterOfProverbs").append(`${proverb}`)
+  console.log(`Proverbs ${dayOfMonth} loaded`)
 })
