@@ -1,6 +1,8 @@
 {
     "name": "Daily Proverb",
     "short_name": "DailyProverb",
+    "start_url": "index.html?utm_source=homescreen",
+    "scope": "./",
     "icons": [{
         "src": "/android-chrome-192x192.png",
         "sizes": "192x192",
