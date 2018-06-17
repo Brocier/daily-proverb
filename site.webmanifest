@@ -1,6 +1,6 @@
 {
     "name": "Daily Proverb",
-    "short_name": "Proverb",
+    "short_name": "Proverbs",
     "start_url": "index.html?utm_source=homescreen",
     "scope": "./",
     "description": "A simply Daily Proverbs app.",
